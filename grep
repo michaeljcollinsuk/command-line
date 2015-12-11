@@ -1,0 +1,13 @@
+grep is used to search for specific text within files. 
+
+It takes two parameters, first what to search for and second which file to search, and then print's the matches it finds.
+
+Can also be used to search for a term inside data that has been inputted to it using |
+
+It is also useful to pass the output to wc (using | ) in order to count the number of files found with the term.
+
+Can also be used with * (wildcards) to search through multiple files.
+
+e.g. grep world hello.rb
+
+e.g. env | grep README | wc -l
