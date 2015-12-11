@@ -1,0 +1,8 @@
+wc is used to display the line count, word count and character count of a file. It takes one parameter, the filename to be passed to wc.
+
+Can be used with option -l to display only the number of lines. 
+This is particulary useful the results of a grep search are outputted to wc in order to count the instances of a search.
+
+eg. wc myfile
+
+eg. grep and myfile | wc -l
